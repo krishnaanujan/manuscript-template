@@ -1,0 +1,85 @@
+---
+title: ""
+author: 
+date: 
+output:
+    bookdown::word_document2: 
+      reference_docx: word-styles-reference.docx #make sure this line is indented! see this guide for formatting: https://rmarkdown.rstudio.com/articles_docx.html
+      #reference_docx: word-styles-reference-singlespace.docx #make sure this line is indented! see this guide #pdf_document: 
+
+#bibliography: INvenTree-metadata-analysis.bib #change this to the relevant .bib file placed in the same folder
+suppress-bibliography: false
+#csl: journal-of-ecology.csl #change this to the relevant csl file placed in the same folder
+#nocite: |
+#  @koulgi_extensive_2019, @pradhan_biocultural_2020, @page_climatic_2020
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Display items
+
+
+## Tables
+
+
+
+## Figures
+fig_dataset<-"1"
+
+#SI figure numbers
+
+# Legends
+
+#https://github.com/EcoClimLab/Operations/blob/master/Data_Management-Scientific_Workflow/manuscript_prep_with_Rmd.md
+```
+```{r read files, echo=F}
+# Read in files
+```
+**Title: **
+
+# **Authors:** {-}
+
+Krishna Anujan ^1,2,3^* (ORCiD: 0000-0003-3604-5895)   
+
+# Affiliations: {-}
+
+^1^ India Tree Inventory Network, National Centre for Biological Sciences, TIFR, Bellary Road, Bengaluru 560065, India  
+^2^ Smithsonian National Zoo and Conservation Biology Institute, 1500 Remount Road, Front Royal, Virginia 22303, USA  
+^3^ Smithsonian Environmental Research Centre, Edgewater, Maryland, USA  
+
+*corresponding author: krishna.anujan@gmail.com
+
+# Abstract {-}
+
+
+# Keywords {-}
+
+\newpage
+
+# Introduction {-}
+
+
+
+# Materials and Methods {-}
+
+## Study area {-}
+
+
+
+# Results {-}
+
+
+# Discussion {-}
+
+
+# Acknowledgements {-}
+
+# Conflict of Interest Statement {-}
+
+# Data Accessibility Statement {-}
+
+
+\newpage
+# References {-}
+
+

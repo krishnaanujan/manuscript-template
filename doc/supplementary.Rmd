@@ -1,0 +1,62 @@
+---
+title: "Supplementary Information: [Title] (Anujan et al., *TBD*)"
+author: 
+date: 
+output: 
+  pdf_document:
+    fig_caption: yes
+    toc: true # table of content true
+    toc_depth: 2  
+#bibliography: INvenTree-metadata-analysis.bib
+suppress-bibliography: false
+#csl: journal-of-ecology.csl
+header-includes:  \usepackage{float}
+                  \usepackage{caption}
+                  \captionsetup[table]{font=footnotesize}
+                  \captionsetup[figure]{font=footnotesize}
+                  \captionsetup[figure]{labelformat=empty}
+                  \captionsetup[table]{labelformat=empty}
+                  \usepackage{pdflscape}
+                  \newcommand{\blandscape}{\begin{landscape}}
+                  \newcommand{\elandscape}{\end{landscape}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Appendices
+other_maps_methods <-"S1"
+
+other_maps_appendix_title<- "Appendix S1. INvenTree data spread on other base layers"
+
+#SI table numbers
+missing_biomes = "S1"
+
+#SI table captions
+missing_districts_legend <-"Table S1. Studies with missing districts and manually assigned districts."
+
+#SI figure numbers
+
+#SI figure captions
+
+
+
+#https://github.com/EcoClimLab/Operations/blob/master/Data_Management-Scientific_Workflow/manuscript_prep_with_Rmd.md
+```
+
+```{r read files, echo=F}
+# Read in files
+
+```
+\newpage
+
+## `r other_maps_appendix_title`
+
+Insert image here
+
+`r rodgers_and_panwar_fig_legend`
+
+Every appendix should begin in a new page
+
+\newpage
+## References
